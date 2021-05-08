@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap'); 
+  
+/* font-family: 'Big Shoulders Text', cursive; */
+  
+.nav-flex-row { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    position: absolute; 
+    z-index: 100; 
+    left: 0; 
+    width: 100%; 
+    padding: 0;
+    background:#242222;
+} 
+
+.nav-flex-row li { 
+    text-decoration: none; 
+    list-style-type: none; 
+    padding: 20px 15px; 
+} 
+  
+.nav-flex-row li a { 
+    font-family: 'Big Shoulders Text', cursive; 
+    color: rgb(255, 255, 255); 
+    font-size: 3.5em; 
+    text-transform: uppercase; 
+    font-weight: 800; 
+} 
+.nav-flex-row li a:hover{ 
+    background:rgb(218, 218, 218); 
+} 
+
+.section-break{	
+    height: 250px; 
+	padding-top: 50px;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	background: rgb(218, 218, 218);
+
+}
+.section-intro { 
+    height: 820px; 
+    background-image: url(main_picture.jpeg); 
+    background-size: cover; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+} 
+  
+.section-intro h1 { 
+    text-align: center; 
+    color:white; 
+    font-size: 10em; 
+    font-weight: 800; 
+} 
+  
+.section-intro header { 
+    display: flex; 
+    flex: 4; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.section-book {
+	height: 150px; 
+	padding-top: 50px;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	background: rgb(218, 218, 218);
+} 
+
+.section-contact {
+    height: 450px; 
+	padding-top: 50px;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	background:#242222;
+} 
+
+
+.top-header{
+    text-align: center;
+    height: 60px;
+}
+  
+.link-to-book-wrapper { 
+    flex: 1; 
+} 
+   
+.about-section { 
+    display: flex; 
+    align-items: center; 
+    background-color: white; 
+    padding: 50px 30px; 
+} 
+  
+.link-to-book { 
+    color: #ffffff; 
+    display: block; 
+    border: 6px solid #ffffff; 
+    padding: 15px 15px; 
+} 
+  
+a.link-to-book:hover { 
+    background-color: #ffffff; 
+    color: #95999e; 
+    text-decoration: none; 
+} 
+  
+.about-section p, 
+.about-section h3 { 
+    text-align: center; 
+    width: 60%; 
+    margin: auto; 
+    font-family: 'Big Shoulders Text', cursive; 
+    font-size: 1.8em; 
+    text-transform: uppercase; 
+} 
+  
+.carousel-inner { 
+    height: 550px;  
+} 
+  
+.row-flex { 
+    display: flex; 
+    flex-direction: row; 
+} 
+  
+.flex-column-form { 
+    display: flex; 
+    flex-direction: column; 
+    flex: 1; 
+    margin: 30px 20px; 
+    color: white;
+} 
+  
+.btn.btn-primary { 
+    font-family: 'Big Shoulders Text', cursive; 
+    color: #ffffff; 
+    background-color: red; 
+    background-position: right;
+    text-transform: uppercase; 
+    font-size: 16px; 
+    padding: 5px 10px; 
+    letter-spacing: 2px; 
+    border: 0; 
+    margin: 0;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+} 
+  
+.btn.btn-primary:hover { 
+    background-color: #747474; 
+} 
+.opening-time, 
+.contact-adress { 
+    flex: 1; 
+    margin: 30px 20px; 
+    font-size: 1.2em;
+    color: white; 
+} 
+  
+.form-group p { 
+    font-size: 1.2em; 
+} 
+  
+.opening-time p span, 
+.contact-adress p span { 
+    display: block; 
+} 
+  
+@media (min-width:577px) and (max-width: 800px) { 
+  
+    .section-intro { 
+        height: 500px; 
+    } 
+  
+    .about-section p, 
+    .about-section h3 { 
+        font-size: 20px; 
+    } 
+  
+    .carousel-inner { 
+        height: auto; 
+    } 
+  
+    .row-flex { 
+        display: flex; 
+        flex-direction: column; 
+    } 
+} 
+  
+@media screen and (max-width: 576px) { 
+    .section-intro { 
+        height: 300px; 
+    } 
+  
+    .about-section { 
+        padding: 30px; 
+    } 
+  
+    .section-intro h1 { 
+        font-size: 2em; 
+    } 
+  
+    .about-section p, 
+    .about-section h3 { 
+        font-size: 15px; 
+    } 
+  
+    .carousel-inner { 
+        height: auto; 
+    } 
+  
+    .row-flex { 
+        display: flex; 
+        flex-direction: column; 
+    } 
+  
+    .row-flex h3 { 
+        font-size: 25px; 
+        text-align: center; 
+    } 
+  
+    .form-group p { 
+        font-size: 15px; 
+    } 
+  
+    .opening-time p span, 
+    .contact-adress p span { 
+        font-size: 15px; 
+        text-align: center; 
+    } 
+
+} 
+
+.section-menu-header{	
+    height: 150px; 
+    padding-top: 10px;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	background: rgb(218, 218, 218);
+
+}
+
+.section-menu-1{	
+    height: 1200px; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	background: rgb(218, 218, 218);
+
+}
+
+.section-menu-2{	
+    height: 1200px; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	background: rgb(255, 255, 255);
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+
+.section-menu-header h1 { 
+    text-align: center; 
+    color:black; 
+    font-size: 7em; 
+    font-weight: 500; 
+} 
+
+.section-menu-1 h2 { 
+    text-align: center; 
+    color:black; 
+    font-size: 4em; 
+    font-weight: 500; 
+} 
+
+.section-menu-2 h2 { 
+    text-align: center; 
+    color:black; 
+    font-size: 4em; 
+    font-weight: 500; 
+} 
+
+.section-menu-1 h3 { 
+    text-align: center; 
+    color:black; 
+    font-size: 3em; 
+    font-weight: 400; 
+} 
+
+.section-menu-2 h3 { 
+    text-align: center; 
+    color:black; 
+    font-size: 3em; 
+    font-weight: 400; 
+} 
+
+.section-menu-1 h5 { 
+    text-align: center; 
+    color:black; 
+    font-size: 2em; 
+    font-weight: 300; 
+} 
+
+.section-menu-2 h5 { 
+    text-align: center; 
+    color:black; 
+    font-size: 2em; 
+    font-weight: 300; 
+} 
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .login-page {background-color: white;
+          color: black(207, 102, 102);
+          width: 50px;
+          height: 1px;
+          margin: 10px;
+          padding: 1px;
+          text-align: center}
+          P { text-align: center }
+         
+  
+          .login {
+            font-family: 'Big Shoulders Text', cursive; 
+            color: #ffffff; 
+            background-color: red; 
+            background-position: center;
+            text-transform: uppercase; 
+            text-align: center;
+            font-size: 16px; 
+            padding: 11px; 
+            letter-spacing: 2px; 
+            border: 0; 
+            margin: 20px;
+            -ms-transform: translateY(50%);
+            transform: translateY(50%);}
+  
+   

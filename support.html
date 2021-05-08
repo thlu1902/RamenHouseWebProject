@@ -1,0 +1,194 @@
+<!DOCTYPE html> 
+<html lang="en">
+    
+<!-- Required meta tags -->
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width,  
+            initial-scale=1, shrink-to-fit=no"> 
+  
+    <link rel="stylesheet" href="index.css">
+    
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href= 
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity= 
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"> 
+  
+    <title>Restaurant Website</title> 
+
+<!-- navbar  -->
+<nav> 
+    <ul class="nav-flex-row"> 
+        <li> <img src="RamenHouse.jpeg" width="100px"></li>
+        <li class="nav-item"> 
+            <a href="index.html">Home</a> 
+        </li> 
+        <li class="nav-item"> 
+            <a href="menu.html">Menu</a> 
+        </li> 
+        <li class="nav-item"> 
+            <a href="Nutrition.html">Nutrition</a> 
+        </li> 
+        <li class="nav-item"> 
+            <a href="support.html">Support</a> 
+        </li> 
+        <li class="nav-item"> 
+            <a href="AboutUs.html">About Us</a> 
+        </li> 
+    </ul> 
+</nav> 
+<section class="section-break">
+
+</section>
+
+<section class="section-intro"> 
+    <header> 
+        <h1> Ramen House</h1> 
+    </header> 
+</section> 
+
+<br>
+    <article> 
+        <h3><center> 
+            Get in touch with Ramen House!
+        </center></h3> 
+        <br>
+        <p> 
+            Send us a message with your name, email, 
+             and topic of matter.
+        </p> 
+    </article> 
+
+    <div action="" class = "form" onsubmit= "return supportpage()"> <style></style></div>
+    <body>
+     <center><div class="login-page"></center>
+        
+         <p><label><b>Please enter your name: </b>
+             <input name = "name" id= "product5" type = "text" size = "30" required="true">
+             </label></p>
+ 
+             <p><label><b>Please enter your email: </b>
+                <input name = "email" id="product6" type = "text" size = "30" required="true">
+                </label></p>
+ 
+             <p><label><b>Please enter the subject: </b>
+             <input name = "name" id="product7" type = "text" size = "30" required="true">
+              </label></p>
+ 
+              <p><label><b>Please enter your message: </b>
+                <br>
+                <textarea name = "comments" id="product8"
+                rows = "4" cols = "100">Enter message here.</textarea>
+          </label></p>
+ 
+             <center> <button class="login" type="submit" type="button" onclick="supportpage()">Send Message</button> </center>
+              
+              </div>
+              </p>
+             
+             </div>
+             </p>
+             </form>
+
+             <script>
+                // Your web app's Firebase configuration
+                var firebaseConfig = {
+                  apiKey: "AIzaSyCQHG-5mTHqRRzrpvVcW4z3R0g7ZEve2Ek",
+                  authDomain: "ramen-house-1e8aa.firebaseapp.com",
+                  databaseURL: "https://ramen-house-1e8aa-default-rtdb.firebaseio.com",
+                  projectId: "ramen-house-1e8aa",
+                  storageBucket: "ramen-house-1e8aa.appspot.com",
+                  messagingSenderId: "870648212810",
+                  appId: "1:870648212810:web:fdc394467802483e5125b3"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+
+                var database = firebase.database(); 
+              </script>
+
+             
+<section class="section-contact">
+    <div class="container"> 
+        <div class="row-flex"> 
+            <div class="flex-column-form"> 
+                <h3> 
+                    Make a booking 
+                </h3> 
+                <p>Click here to make a reservation</p>
+                <div class="link-to-book-wrapper"> 
+                    <a class="link-to-book"
+                        href="Reservations.html"><center>Book a table</center></a> 
+                </div> 
+            </div> 
+            <div class="opening-time"> 
+                <h3> 
+                    Opening times 
+                </h3> 
+                <p> 
+                    <span>Monday — Thursday: 08:00 — 22:00</span> 
+                    <span>Friday — Saturday: 09:00 — 23:00 </span> 
+                    <span>Sunday: 10:00 — 17:00</span> 
+                </p> 
+            </div> 
+            <div class="contact-adress"> 
+                <h3> 
+                    Contact 
+                </h3> 
+                <p> 
+                    <span>408-924-1000</span> 
+                    <span>1 Washington Sq,</span> 
+                    <span>San Jose, CA 95192</span>
+                    <a href="http://www.twitter.com"><img
+                        src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Twitter_NEW.png" width="30"
+                        height="30" alt="Twitter"></a>
+                <a href="http://www.instagram.com"><img
+                        src="https://cdn.iconscout.com/icon/free/png-512/instagram-233-896451.png" width="30" height="30"
+                        alt="Instagram"></a>
+                <a href="http://www.facebook.com"><img
+                        src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19750.png" width="30" height="30"
+                        alt="Facebook"></a> 
+                </p> 
+            </div> 
+            <div class="column">
+                <br>
+                <br>
+                <img src="RamenHouse.jpeg" width="150px">
+            </div>
+        </div> 
+    </div> 
+    </section>
+  
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity= 
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"> 
+    </script> 
+      
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity= 
+"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"> 
+    </script> 
+      
+    <script src= 
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity= 
+"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"> 
+    </script> 
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+    <script src="support.js" async></script> 
+</body> 
+  
+</html> 

@@ -1,0 +1,14 @@
+{
+    "reservation_details": [{
+    "product1": "thanh",
+    "product2": "1",
+    "product3": "01/01/2021",
+    "product4": "10:00 AM"
+    }, {
+    "product1": "cuong",
+    "product2": "2",
+    "product3": "05/05/2021",
+    "product4": "09:09 PM"
+    }]}
+
+
